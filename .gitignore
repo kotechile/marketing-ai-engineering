@@ -1,0 +1,30 @@
+# .gitignore
+.env
+.env.*
+!.env.example
+
+# Media & Heavy Assets
+*.mp4
+*.mp3
+*.wav
+*.mov
+*.avi
+*.png
+*.jpg
+*.jpeg
+*.webp
+/tmp/
+/renders/
+/output/
+
+# Dependencies
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
